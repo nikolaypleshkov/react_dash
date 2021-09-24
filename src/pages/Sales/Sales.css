@@ -1,0 +1,8 @@
+.sales{
+    flex: 4;
+}
+.sales-lf{
+    flex: 4;
+    position: relative;
+    overflow: hidden;
+}

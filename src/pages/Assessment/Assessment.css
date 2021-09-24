@@ -1,0 +1,8 @@
+.assessment{
+    flex: 4;
+}
+.assessment-lf{
+    flex: 4;
+    position: relative;
+    overflow: hidden;
+}

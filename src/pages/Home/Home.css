@@ -1,0 +1,78 @@
+.home{
+    flex: 4;
+}
+.home-lf{
+    flex: 4;
+    position: relative;
+    overflow: hidden;
+}
+.btn-group-lf{
+    flex: 4;
+    position: absolute;
+    overflow: hidden;
+}
+.btn-group{
+    margin-top: 5%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pending-payout{
+    position: relative;
+    top: -4%;
+    right: 5%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .payout{
+      font-size: 20px;
+      font-weight: bold;
+  }
+
+@media(max-width: 940px){
+    .home{
+        position: absolute;
+        left: 5%;
+    }
+    .pending-payout{
+        justify-content: flex-start;
+        left: 1%;
+        margin-top: 5%;
+    }
+}

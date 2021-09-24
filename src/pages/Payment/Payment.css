@@ -1,0 +1,16 @@
+.payment{
+    flex: 4;
+}
+.payment-lf{
+    flex: 4;
+    position: relative;
+    overflow: hidden;
+}
+
+
+@media(max-width: 940px){
+    .payment{
+        position: absolute;
+        left: 5%;
+    }
+}

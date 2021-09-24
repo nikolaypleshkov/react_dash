@@ -1,0 +1,8 @@
+.domains{
+    flex: 4;
+}
+.domain-lf{
+    flex: 4;
+    position: relative;
+    overflow: hidden;
+}
